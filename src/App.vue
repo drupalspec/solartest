@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <weather/>
+    <main-view/>
   </div>
 </template>
 
 <script>
-import Weather from './components/weather.vue'
+import mainView from './components/MainView.vue'
 
 export default {
   name: 'app',
   components: {
-    Weather
+    mainView
   }
 }
 </script>
